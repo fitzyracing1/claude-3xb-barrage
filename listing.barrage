@@ -1,0 +1,40 @@
+# Claude 3xb archive
+
+> A Claude conversation archive on the 3XB entity-intelligence thread.
+
+## Purpose
+Explain this repo as saved talk about 3XB, not as the live API. Source: fitzyracing1/claude-3xb.
+
+## How it works (plain English)
+1. Keep the chat history in this repo.
+2. Use it to recall 3XB talk.
+3. Use earthenwarecomputer.com or related repos for the running system.
+
+## Key ideas
+- Conversation archive
+- 3XB thread
+- Family of claude-* repos
+
+## The actual code
+```
+# source: fitzyracing1/claude-3xb
+archive = conversation_shelf("3xb")
+read(archive)
+```
+
+## Line-by-line translation
+1. conversation_shelf("3xb") → “this folder holds that thread”
+2. read(archive) → “open the saved talk”
+
+## Decisions the program makes
+- If a reader wants the live API → send them to earthenwarecomputer / 3xb repos
+- If a reader wants the chat → stay here
+
+## What a person would notice
+Talk about entity intelligence, not the running search.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the archive, or the 3XB demo.
